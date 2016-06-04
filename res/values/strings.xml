@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">FinalApp</string>
+    <string name="title_picker_activity">title</string>
+	<string name="text_state_text">state</string>
+	<string name="title_catcher_activity">title</string>
+    
+</resources>
