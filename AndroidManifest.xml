@@ -1,8 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.finalapp"
+    package="com.example.androidapp"
     android:versionCode="1"
     android:versionName="1.0" >
 
+    
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="22" />
@@ -19,21 +20,55 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         
-        <activity 
-            android:name="com.example.finalapp.activity.PickerActivity"
-            android:label="@string/title_picker_activity" >
-            
-        </activity>
-        
         <activity
-            android:name="com.example.finalapp.activity.CatcherActivity"
-            android:label="@string/title_catcher_activity"
+            android:name="com.mrabel.activity.MainActivity"
+            android:label="Main"
             android:screenOrientation="portrait">
+            	
             <intent-filter >
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.mrabel.activity.AddCourseActivity"
+            android:label="AddCourse"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity
+            android:name="com.mrabel.activity.CaptureActivity"
+            android:label="catcher_activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.mrabel.activity.TestActivity"
+            android:label="test_activity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.mrabel.activity.CameraActivity"
+            android:label="captcher" 
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            android:screenOrientation="portrait">
+        </activity>
+        
+        <activity 
+            android:name="com.mrabel.activity.TrainActivity"
+            android:label="train" ></activity>
+        <activity 
+            android:name="com.mrabel.activity.BrowseClassActivity"
+            android:label="BrowseClass" ></activity>
+        
+        <activity 
+            android:name="com.mrabel.activity.DispStudentActivity"
+            android:label="DispStudentClass" ></activity>
+        <activity 
+            android:name="com.mrabel.activity.HistoryInfActivity"
+            android:label="HistoryInf" ></activity>
+        <activity 
+            android:name="com.mrabel.activity.SignInActivity"
+            android:label="HistoryInf" ></activity>
     </application>
 
 </manifest>

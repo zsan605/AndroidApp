@@ -1,0 +1,13 @@
+<GridView  xmlns:an="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.girdviewtest.MainActivity"
+    
+    an:id="@+id/gridview" 
+    an:layout_width="fill_parent" 
+    an:layout_height="fill_parent"
+    an:numColumns="3"
+    an:verticalSpacing="10dp"  
+    an:horizontalSpacing="10dp"
+    an:stretchMode="columnWidth"
+    an:gravity="center">
+</GridView>

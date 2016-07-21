@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent" >
+   
+    <Button 
+	   	a:id="@+id/button_capture" 
+	    a:layout_width="wrap_content" 
+	    a:layout_height="wrap_content" 
+	    a:layout_alignParentTop="true" 
+	    a:layout_centerHorizontal="true"
+	    a:text="Capture" /> 
+	    
+	<TextView 
+	    a:id="@+id/disp_class"
+	    a:layout_width="wrap_content"
+	    a:layout_height="wrap_content"
+	    a:layout_below="@id/button_capture"
+	    a:layout_centerHorizontal="true" 
+	    a:text="请选择要签到的班级"/>
+    
+	<FrameLayout 
+	    a:id="@+id/camera_preview" 
+	    a:layout_width="fill_parent" 
+	    a:layout_height="fill_parent" 
+	    a:layout_centerInParent="true"
+	    a:layout_weight="1" /> 
+
+	<Button
+		a:id="@+id/close_camera"
+		a:layout_width="wrap_content"
+		a:layout_height="wrap_content"
+		a:layout_alignParentBottom="true"
+		a:layout_centerHorizontal="true"
+		a:text="Close Camera" />
+</RelativeLayout>

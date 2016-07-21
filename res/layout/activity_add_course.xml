@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" >
+
+	<ImageView
+	  android:id="@+id/imageView1"
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+      android:src="@drawable/ic_courseimg" 
+      android:layout_marginBottom="10dp"
+	/>
+	<EditText 
+	    android:id="@+id/className"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName" 
+        android:maxLines="1"
+        android:hint="请输入班级名"
+        android:layout_marginBottom="10dp"
+	    />
+
+    <EditText
+        android:id="@+id/courseName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName" 
+        android:maxLines="1"
+        android:hint="其输入课程名"
+        android:layout_marginBottom="40dp" />
+    
+    <EditText
+        android:id="@+id/courseId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName" 
+        android:maxLines="1"
+        android:hint="请输入课程号"
+        android:layout_marginBottom="40dp" />
+    
+    <EditText
+        android:id="@+id/times"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName" 
+        android:maxLines="1"
+        android:hint="请输入课时"
+        android:layout_marginBottom="40dp" />
+    
+
+
+    <Button
+        android:id="@+id/importStu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="导入该班级学生" />
+
+    <Button
+       android:id="@+id/addCourse"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="添加" />
+
+
+</LinearLayout>

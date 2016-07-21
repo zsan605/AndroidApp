@@ -1,8 +1,17 @@
 <resources>
 
-    <string name="app_name">FinalApp</string>
-    <string name="title_picker_activity">title</string>
-	<string name="text_state_text">state</string>
-	<string name="title_catcher_activity">title</string>
+    <string name="app_name">AndroidApp</string>
+    <string name="action_settings">设置</string>
+    <string name="add_course">添加班级</string>
+    <string name="add_face">添加人脸</string>
+    <string name="start_sign">开始签到</string>
+    <string name="history_inf">历史签到信息</string>
+    <string name="current_inf">当前签到信息</string>
+    <string name="export_data">导出信息</string>
+    <string name="import_data">导入信息</string>
+    <string name="train">训练</string>
+    <string name="ident">识别</string>
+    <string name="browse_class">查看班级</string>
     
+
 </resources>
